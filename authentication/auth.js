@@ -86,6 +86,7 @@ export function useAuthProvider() {
     setLoading(false);
   }, []);
 
+  //values can be memoised also
   return {
     authUser,
     isAuthenticated,
